@@ -10,7 +10,9 @@ const Home = () => {
       </Head>
 
       <main>
-        <h1>Hello Next JS !</h1>
+        <h1 className='animate__animated animate__bounceInRight'>
+          Hello Next JS !
+        </h1>
       </main>
     </div>
   );
