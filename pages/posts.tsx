@@ -1,6 +1,7 @@
 import Head from "next/head";
+import { FC } from "react";
 
-const PostsPage = () => {
+const PostsPage: FC = () => {
   return (
     <>
       <Head>
