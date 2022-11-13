@@ -1,6 +1,7 @@
 import Head from "next/head";
+import { FC } from "react";
 
-const Home = () => {
+const Home: FC = () => {
   return (
     <div>
       <Head>
@@ -9,9 +10,7 @@ const Home = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <main>
-        <h1>Hello Next JS !</h1>
-      </main>
+      <h1>Hello Next !</h1>
     </div>
   );
 };
